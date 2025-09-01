@@ -3,114 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <style>
-        *{
-            color: aliceblue;
-            background-color: rgb(4, 4, 68);
-        }
-        .img{
-            height: 200px;
-            width: 179px;
-            border-radius: 50%;
-           margin: 5px 5px 5px;
-        }
-        .port{
-            color: rgb(244, 7, 244);
-        }
-        .folio{
-            color: aqua;
-        }
-        .portfolio{
-          display: flex;
-          margin-bottom: 100px;
-          font-size: 30px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-        .photo{
-            background-color:rgb(240, 243, 250);
-            width: 189px;
-            height: 210px;
-            color: aliceblue;
-            border-radius: 50%;
-            margin-left: 200px;
-        }
-        .title{
-            display: flex;
-            gap: 300px;
-        }
-        .name{
-            font-family: cursive;
-        }
-        .hero{
-            font-size: 20px;
+*{
+   background-color: rgb(16, 39, 97);
+ }
+.nav{
 
-        }        
+display: flex;
+}
+.nav1{
+    color: rgb(232, 11, 195);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav2{
+    color: rgb(7, 207, 238);
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profilephoto{
+    width: 220px;
+    height: 250px;
+    margin-left: 200px;
+    /* margin-top: 200px; */
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.intro{
+    color: rgb(172, 177, 181);
+    font-size: 20px;
+    font-family: cursive;
+}
+.midpart{
+    display: flex;
+    margin-top: 200px;
 
-       .hero2{
-        font-size: 20px;
-        display: flex;
-        font-family: cursive;
-       }
-       .f{
-        color: rgb(48, 111, 237);
-        font-size: 18px;
-       }
-       .hero1{
-        display: flex;
-        font-size: 30px;
-        color: aliceblue;
-        gap: 15px;
-        font-family: cursive;
-       }
-       .about{
-        color: rgb(145, 148, 151);
-        margin-left: 300px;
-        font-size: 17px;
-        font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
-       }
-       .about-me{
-        color: rgb(6, 205, 232);
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 275px;
-        margin-top: 50px;
-       }
-       .projects{
-        color: rgb(147, 152, 173);
-        font-size: 16px;
-        padding-left: 100px;
-        text-decoration: none;
-       }
-       .introduction{
-        color: rgb(147, 152, 173);
-        font-size: 16px;
-        padding-left: 1000px;
-        text-decoration: none;
-       }
+}
+.about{
+    padding-top: 100px;
+}
+#aboutheading{
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.aboutme{
+    color:rgb(172, 177, 181);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.education{
+    color: white;
+    font-size: 25px;
+}
+.E{
+    color: white;
+    font-size: 20px;
+}
+.E1{
+    color:rgb(172, 177, 181);
+    font-size: 18px;
+}
+.experience{
+    color: white;
+    font-size: 25px;
+}
+.internship{
+    color: rgb(172, 177, 181);
+    font-size: 22px;
+}
+.Indikraft{
+    color: rgb(172, 177, 181);
+    font-size: 20px;
+}
+.certificatefieldset{
+    width: 500px;
+    height: 300px;
+}
+.certificate1{
+    color: white;
+    font-size: 20px;
+}
+.certificate1img{
+    width: 500px;
+    height: 300px;
+}
+.skills{
+    color: white;
+    font-size:25px;
+}
+.skill{
+    color:rgb(172, 177, 181);
+    font-size: 20px;
+}
+#contactinfo{
+    color: white;
+    font-size: 25px;
+}
+.contact1{
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact2{
+    color:rgb(16, 253, 115);
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact3{
+    color:blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+.project{
+    color: white;
+    font-size: 25px;
+}
+.bookmarks{
+    color: white;
+    font-size: 25px;
+}
+.bookmark{
+    color: rgb(72, 145, 145);
+    font-size: 20px;
+    text-decoration: none;
+}
+
     </style>
 </head>
 <body>
-    <div class="portfolio">
-        <div class="port" >Port</div>
-        <div class="folio">folio</div>
-        <a class="introduction" href="index.html">Introduction</a>
-        <a class="projects" href="projects.html">My Projects</a>
-    </div>
-    <div class="title">
-        <div class="photo"><img class="img" src="./profile-photo.jpg"></div>
-        <h1 class="name">
-        <p class="hero">Hello I'm </p> Ashish Kumar</p>
-       <div class="hero1"> <p class="hero2"> And i'm a  </p> <p class="f"> Frontend Developer
-    </p></div>
-        </h1>
-   </div>
-</div>
-<div class="about-me">About Me :</div>
-<P class="about">Hi, I’m a Frontend Developer and currently pursuing my B.Tech in Information Technology (2nd Year) from Rajkiya Engineering College, Banda.
-I am passionate about Full Stack Web Development, App Development, and Data Science, and continuously enhancing my skills to become a versatile developer.
-My current focus is on building responsive, user-friendly web applications while expanding my knowledge in backend technologies, mobile app development, and data-driven solutions.
-I enjoy exploring new technologies, working on real-world projects, and building innovative solutions that can create an impact.</P>
+    <header>
+        <section class="nav">
+            <div class="nav1">Port</div>
+            <div class="nav2">folio</div>
+        </section>
+    </header>
+    <br><br>
+    <section class="midpart"><img class ="profilephoto" src="profilephoto.jpg" alt="">
+        <span>
+       <pre class="intro"> 
+             Hi, I'm <b>Ashish Kumar. </b>
+             A budding <b>Frontend Developer</b>and
+             a 2nd-year <b>B.Tech (IT)</b> student,
+             driven by curiosity and creativity.
+             Currently exploring the world of 
+             <b>Web & App Developmentb</b>,with a passion for
+             building sleek, user-friendly digital experiences.
+       </pre>
+        </span>
+    </section>
+    <br><br><br>
+     <section>
+        
+      <div class="bookmarks">Bookmarks</div>
+      <br><br>
+      <b>
+       <a class="bookmark" href="#about">⤴ About Me</a>
+       <br>
+       <a class="bookmark" href="#education">⤴ Education</a>
+       <br>
+       <a class="bookmark" href="#experience">⤴ Experience</a>
+       <br>
+       <a class="bookmark" href="#skills">⤴ Skills</a>
+       <br>
+       <a class="bookmark" href="#project" >⤴ Projects</a>
+       <br>
+       <a class="bookmark" href="#contactinfo">⤴ Contact Info</a>
+     </b>
+    </section>
+    <br><br>
+    <section class="about" id="about">
+        <div id="aboutheading">About Me:</div>
+            <pre class="aboutme">
+            I'm Ashish, a 2nd-year B.Tech student specializing in Information Technology, with a growing passion for
+            frontend development. I love turning ideas into interactive and visually appealing web experiences. As I
+            continue to learn and grow, I'm excited to dive deeper into Web Development, App Development, and UI/UX Design.
+            My goal is to build digital products that are not only functional but also delightful to use. I'm constantly
+            exploring new tools and technologies to sharpen my skills and bring creative solutions to life.
+            </pre>
+    </section>
+    <br><br>
+    <section>
+        <div class="education" id="education">Education:</div>
+        <br><br>        
+        <div class="E">Graduation:  BTech(IT) 2nd-year</div><br>
+            <div class="E1">Pursuing from Rajkiya Engineering College Banda (Batch 2024-28)</div><br><br>
+        <div class="E">Matric And Intermediate Education:</div><br>
+         <div class="E1">Completed from Shri Lalta Prasad Saraswati Vidya Mandir <br>Inter College Nawabganj,Bareilly</div>
+    </section>
+    <br><br><br>
+    <section>
+        <div class="experience" id="experience">Experience:</div>
+        <br><br>
+        <div class="internship">Internship--</div>
+        <pre class="Indikraft">
+        Intern at Indikraft Artisian Ventures 
+        Private Limited
+        </pre>
+      <fieldset class="certificatefieldset">
+        <legend class="certificate1">Certificate Of Completion</legend>
+      <iframe class="certificate1img" src="certificate.jpg" frameborder="0">Certificate of Completion</iframe>
+      </fieldset>
+    </section>
+    <br><br>
+    <section>
+        <div class="skills" id="skills">Skills:</div>
+        <div class="skill">
+            <ul>*HTML</ul>
+            <ul>*CSS</ul>
+            <ul>*Javascript(improving)</ul>
+            <ul>*Basic Python</ul>
+            <ul>*C Programming</ul>
+        </div>
+    </section>
+    <section>
+        <div class="project" id="project">
+         Projects:
+        </div>
+    </section>
+    <br><br><br>
+    <section id="contactinfo">
+      <div>Contact Info:</div>
+      <br>
+      <a class="contact1" href="mailto:ashishgangwar7500@gmail.com">📧 Email</a>
+        <br>
+        <a class="contact2" href="tel:7500150462">📱 Call Me</a><br>
+         <a href="https://www.linkedin.com/in/ashish-kumar-516453327/" class="contact3">🌐 Linkedin</a><br><br><br><br><br>
+    </section>
+
 
 </body>
 </html>
