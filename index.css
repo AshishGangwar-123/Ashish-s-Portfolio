@@ -1,0 +1,166 @@
+*{
+   background-color: rgb(20, 80, 97);
+ }
+.nav{
+
+display: flex;
+}
+.nav1{
+    color: rgb(232, 11, 195);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav2{
+    color: rgb(7, 207, 238);
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profilephoto{
+    width: 220px;
+    height: 250px;
+    margin-left: 200px;
+    /* margin-top: 200px; */
+    border-radius: 50%;
+    border: 7px solid white;
+}
+.intro{
+    color: rgb(172, 177, 181);
+    font-size: 20px;
+    font-family: cursive;
+}
+.midpart{
+    display: flex;
+    margin-top: 200px;
+
+}
+.about{
+    padding-top: 100px;
+}
+#aboutheading{
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.aboutme{
+    color:rgb(172, 177, 181);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.education{
+    color: white;
+    font-size: 25px;
+}
+.E{
+    color: white;
+    font-size: 20px;
+}
+.E1{
+    color:rgb(172, 177, 181);
+    font-size: 18px;
+}
+.smartcontact{
+    position: relative;
+}
+
+.experience{
+    color: white;
+    font-size: 25px;
+}
+.internship{
+    color: rgb(172, 177, 181);
+    font-size: 22px;
+}
+.Indikraft{
+    color: rgb(172, 177, 181);
+    font-size: 20px;
+}
+.certificatefieldset{
+    width: 500px;
+    height: 300px;
+}
+.certificate1{
+    color: white;
+    font-size: 20px;
+}
+.certificate1img{
+    width: 500px;
+    height: 300px;
+}
+.skills{
+    color: white;
+    font-size:25px;
+}
+.skill{
+    color:rgb(172, 177, 181);
+    font-size: 20px;
+}
+#contactinfo{
+    color: white;
+    font-size: 25px;
+    position:relative;
+}
+.contact1{
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact2{
+    color:rgb(16, 253, 115);
+    font-size: 20px;
+    text-decoration: none;
+}
+.contact3{
+    color:blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+.project{
+    color: white;
+    font-size: 25px;
+}
+.bookmarks{
+    color: white;
+    font-size: 25px;
+}
+.bookmark{
+    color: rgb(72, 145, 145);
+    font-size: 20px;
+    text-decoration: none;
+}
+/* new */
+.contactlinks{
+    text-decoration: none;
+    
+}
+.contactwayimg1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: sticky;
+     top: 100px;
+}
+.contactwayimg2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: sticky;
+    top: 100px;
+    right: 0px;
+    float: right;
+}
+.contactwayimg3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: sticky;
+    top: 350px;
+}
+.contactwayimg4{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+     position: sticky;
+    top: 350px;
+    right: 0px;
+    float: right;
+}
