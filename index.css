@@ -20,7 +20,7 @@ display: flex;
 .profilephoto{
     width: 220px;
     height: 250px;
-    margin-left: 200px;
+    margin-left: 50px;
     /* margin-top: 200px; */
     border-radius: 50%;
     border: 7px solid white;
@@ -147,7 +147,7 @@ display: flex;
     border-radius: 50%;
     position: sticky;
     top: 100px;
-    right: 0px;
+    right: -50px;
     float: right;
 }
 .contactwayimg3{
@@ -167,3 +167,4 @@ display: flex;
     float: right;
 
 }
+
