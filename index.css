@@ -142,16 +142,16 @@ display: flex;
      top: 100px;
 }
 .contactwayimg2{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     position: sticky;
     top: 100px;
-    margin-left:770px;
+    margin-left:750px;
 }
 .contactwayimg3{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     position: sticky;
     top: 350px;
@@ -162,8 +162,9 @@ display: flex;
     border-radius: 20%;
      position: sticky;
     top: 350px;
-     margin-left:770px;
+     margin-left:750px;
 }
+
 
 
 
