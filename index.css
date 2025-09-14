@@ -135,8 +135,8 @@ display: flex;
     
 }
 .contactwayimg1{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     position: sticky;
      top: 100px;
@@ -147,7 +147,7 @@ display: flex;
     border-radius: 50%;
     position: sticky;
     top: 100px;
-    margin-left:610px;
+    margin-left:580px;
 }
 .contactwayimg3{
     height: 120px;
@@ -157,13 +157,14 @@ display: flex;
     top: 350px;
 }
 .contactwayimg4{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 20%;
      position: sticky;
     top: 350px;
-     margin-left:610px;
+     margin-left:580px;
 }
+
 
 
 
