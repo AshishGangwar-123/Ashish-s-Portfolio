@@ -170,7 +170,7 @@ display: flex;
     width: 7%;
     border-radius: 50%;
     position: sticky;
-    top: 8em;
+    top: 12em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:36em; */
@@ -180,7 +180,7 @@ display: flex;
     width: 7%;
     border-radius: 50%;
     position: sticky;
-    top: 13em;
+    top: 16em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:36em; */
@@ -190,7 +190,7 @@ display: flex;
     width: 7%;
     border-radius: 20%;
     position: sticky;
-    top: 18em;
+    top: 20em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:30em; */
@@ -200,11 +200,12 @@ display: flex;
     width: 7%;
     border-radius: 20%;
     position: sticky;
-    top: 23em;
+    top: 24em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
