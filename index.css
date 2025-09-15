@@ -2,6 +2,7 @@
    padding:0;
    margin:0;
    background-color: rgb(20, 80, 97);
+   position: relative;
  }
 .nav{
 
@@ -9,16 +10,16 @@ display: flex;
 }
 .nav1{
     color: rgb(232, 11, 195);
-    font-size: 35px;
+    font-size: 1.56rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .nav2{
     color: rgb(7, 207, 238);
-    font-size: 35px;
+    font-size: 2.18rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .profilephoto{
-    width: 220px;
+    width: 13.75rem;
     height: 250px;
     margin-left: 50px;
     /* margin-top: 200px; */
@@ -27,30 +28,32 @@ display: flex;
 }
 .intro{
     color: rgb(172, 177, 181);
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: cursive;
 }
 .midpart{
     display: flex;
-    margin-top: 200px;
+    margin-top: 12.5rem;
 
 }
 .about{
-    padding-top: 100px;
+    padding-top: 6.2rem;
 }
 #aboutheading{
     color: white;
-    font-size: 25px;
-    padding-left: 30px;
+    font-size: 1.5rem;
+    padding-left: 2em;
 }
 .aboutme{
     color:rgb(172, 177, 181);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Courier New', Courier, monospace;
 }
 .education{
     color: white;
-    font-size: 25px;
+    font-size: 1.56rem;
+    display: inline-block;
+  
 }
 .workshopscertificate{
     color: aliceblue;
@@ -58,11 +61,11 @@ display: flex;
 }
 .E{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .E1{
     color:rgb(172, 177, 181);
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .smartcontact{
     position: relative;
@@ -70,7 +73,9 @@ display: flex;
 
 .experience{
     color: white;
-    font-size: 25px;
+    font-size: 1.56rem;
+    display: inline-block;
+   
 }
 .internshipcertificatefieldset{
     display: inline;
@@ -81,15 +86,17 @@ display: flex;
 }
 .internship{
     color: rgb(172, 177, 181);
-    font-size: 22px;
+    font-size: 1.375rem;
+    display: inline-block;
+ 
 }
 .Indikraft{
     color: rgb(172, 177, 181);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .certificate1{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: inline-block;
 }
 .certificateimg1{
@@ -98,43 +105,43 @@ display: flex;
 }
 .skills{
     color: white;
-    font-size:25px;
+    font-size:1.56rem;
 }
 .skill{
     color:rgb(172, 177, 181);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 #contactinfo{
     color: white;
-    font-size: 25px;
+    font-size: 1.56rem;
     position:relative;
 }
 .contact1{
     color: brown;
-    font-size: 20px;
+    font-size:1.25rem;
     text-decoration: none;
 }
 .contact2{
     color:rgb(16, 253, 115);
-    font-size: 20px;
+    font-size:1.25rem;
     text-decoration: none;
 }
 .contact3{
     color:blue;
-    font-size: 20px;
+    font-size:1.25rem;
     text-decoration: none;
 }
 .project{
     color: white;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 .bookmarks{
     color: white;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 .bookmark{
     color: rgb(72, 145, 145);
-    font-size: 20px;
+    font-size:1.25rem;
     text-decoration: none;
 }
 /* new */
@@ -160,7 +167,8 @@ display: flex;
     border-radius: 50%;
     position: sticky;
     top: 10rem;
-    margin-left:36em;
+    margin-left: 95%;
+    /* margin-left:36em; */
 }
 .contactwayimg2{
     height: 5%;
@@ -168,7 +176,8 @@ display: flex;
     border-radius: 50%;
     position: sticky;
     top: 20rem;
-    margin-left:36em;
+    margin-left: 95%;
+    /* margin-left:36em; */
 }
 .contactwayimg3{
     height: 5%;
@@ -176,7 +185,8 @@ display: flex;
     border-radius: 20%;
     position: sticky;
     top: 30rem;
-    margin-left:30em;
+    margin-left: 95%;
+    /* margin-left:30em; */
 }
 .contactwayimg4{
     height: 5%;
@@ -184,8 +194,10 @@ display: flex;
     border-radius: 20%;
     position: sticky;
     top: 40rem;
-    margin-left:34.4em;
+    margin-left: 95%;
+    /* margin-left:34.4em; */
 }
+
 
 
 
