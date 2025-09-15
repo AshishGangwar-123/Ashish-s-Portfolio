@@ -52,6 +52,10 @@ display: flex;
     color: white;
     font-size: 25px;
 }
+.workshopscertificate{
+    color: aliceblue;
+    text-decoration: none;
+}
 .E{
     color: white;
     font-size: 20px;
@@ -68,6 +72,13 @@ display: flex;
     color: white;
     font-size: 25px;
 }
+.internshipcertificatefieldset{
+    display: inline;
+}
+.workshopfieldset{
+    color: aliceblue;
+    display: inline;
+}
 .internship{
     color: rgb(172, 177, 181);
     font-size: 22px;
@@ -76,17 +87,14 @@ display: flex;
     color: rgb(172, 177, 181);
     font-size: 20px;
 }
-.certificatefieldset{
-    width: 500px;
-    height: 300px;
-}
 .certificate1{
     color: white;
     font-size: 20px;
+    display: inline-block;
 }
-.certificate1img{
-    width: 500px;
-    height: 300px;
+.certificateimg1{
+   text-decoration: none;
+   color: aliceblue;
 }
 .skills{
     color: white;
@@ -130,45 +138,54 @@ display: flex;
     text-decoration: none;
 }
 /* new */
-.contactlinks{
+.contactlinks1{
     text-decoration: none;
-    
+    color:rgb(117, 30, 30);
+}
+.contactlinks2{
+    text-decoration: none;
+    color:rgb(129, 14, 133);
+}
+.contactlinks3{
+    text-decoration: none;
+    color:rgb(80, 80, 203);
+}
+.contactlinks4{
+    text-decoration: none;
+    color:rgb(15, 170, 15);
 }
 .contactwayimg1{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: sticky;
-     top: 300px;
-    margin-left:480px;
+    top: 10rem;
+    margin-left:36em;
 }
 .contactwayimg2{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     position: sticky;
-    top: 450px;
-    margin-left:480px;
+    top: 20rem;
+    margin-left:36em;
 }
 .contactwayimg3{
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
     position: sticky;
-    top: 600px;
-    margin-left:480px;
+    top: 30rem;
+    margin-left:30em;
 }
 .contactwayimg4{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     border-radius: 20%;
-     position: sticky;
-    top: 750px;
-     margin-left:480px;
+    position: sticky;
+    top: 40rem;
+    margin-left:34.4em;
 }
-
-
-
 
 
 
