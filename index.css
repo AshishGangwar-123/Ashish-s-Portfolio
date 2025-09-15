@@ -5,6 +5,7 @@
    position: relative;
  }
 .nav{
+
 display: flex;
 }
 .nav1{
@@ -14,7 +15,7 @@ display: flex;
 }
 .nav2{
     color: rgb(7, 207, 238);
-    font-size: 1.56rem;
+    font-size: 2.18rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .profilephoto{
@@ -30,9 +31,8 @@ display: flex;
     font-size: 1.2rem;
     font-family: cursive;
 }
-.midpart{ 
-   position:relative;
-    display: inline;
+.midpart{
+    display: flex;
     margin-top: 12.5rem;
 
 }
@@ -48,6 +48,7 @@ display: flex;
     color:rgb(172, 177, 181);
     font-size: 1.25rem;
     font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
 }
 .education{
     color: white;
@@ -162,45 +163,41 @@ display: flex;
     color:rgb(15, 170, 15);
 }
 .contactwayimg1{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 50%;
     position: sticky;
     top: 10rem;
-    margin-left: 100%;
+    margin-left: 95%;
     /* margin-left:36em; */
 }
 .contactwayimg2{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 50%;
     position: sticky;
-    top: 20rem;
-    margin-left: 100%;
+    top: 16rem;
+    margin-left: 95%;
     /* margin-left:36em; */
 }
 .contactwayimg3{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 20%;
     position: sticky;
-    top: 30rem;
-    margin-left: 100%;
+    top: 22rem;
+    margin-left: 95%;
     /* margin-left:30em; */
 }
 .contactwayimg4{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 20%;
     position: sticky;
-    top: 40rem;
-    margin-left: 100%;
+    top: 28rem;
+    margin-left: 95%;
     /* margin-left:34.4em; */
 }
-
-
-
-
 
 
 
