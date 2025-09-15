@@ -166,45 +166,46 @@ display: flex;
     color:rgb(15, 170, 15);
 }
 .contactwayimg1{
-    height: 5%;
-    width: 5%;
+    height: 7%;
+    width: 7%;
     border-radius: 50%;
     position: sticky;
-    top: 8rem;
+    top: 8em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:36em; */
 }
 .contactwayimg2{
-    height: 5%;
-    width: 5%;
+    height: 7%;
+    width: 7%;
     border-radius: 50%;
     position: sticky;
-    top: 13rem;
+    top: 13em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:36em; */
 }
 .contactwayimg3{
-    height: 5%;
-    width: 5%;
+    height: 7%;
+    width: 7%;
     border-radius: 20%;
     position: sticky;
-    top: 18rem;
+    top: 18em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:30em; */
 }
 .contactwayimg4{
-    height: 5%;
-    width: 5%;
+    height: 7%;
+    width: 7%;
     border-radius: 20%;
     position: sticky;
-    top: 23rem;
+    top: 23em;
     margin-left: 95%;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
