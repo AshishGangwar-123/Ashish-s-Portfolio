@@ -166,8 +166,8 @@ display: flex;
     color:rgb(15, 170, 15);
 }
 .contactwayimg1{
-    height: 7%;
-    width: 7%;
+    height: 8%;
+    width: 8%;
     border-radius: 50%;
     position: sticky;
     top: 12em;
@@ -176,8 +176,8 @@ display: flex;
     /* margin-left:36em; */
 }
 .contactwayimg2{
-    height: 7%;
-    width: 7%;
+    height: 8%;
+    width: 8%;
     border-radius: 50%;
     position: sticky;
     top: 16em;
@@ -186,8 +186,8 @@ display: flex;
     /* margin-left:36em; */
 }
 .contactwayimg3{
-    height: 7%;
-    width: 7%;
+    height: 8%;
+    width: 8%;
     border-radius: 20%;
     position: sticky;
     top: 20em;
@@ -196,8 +196,8 @@ display: flex;
     /* margin-left:30em; */
 }
 .contactwayimg4{
-    height: 7%;
-    width: 7%;
+    height: 8%;
+    width: 8%;
     border-radius: 20%;
     position: sticky;
     top: 24em;
@@ -205,6 +205,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
