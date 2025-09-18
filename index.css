@@ -27,7 +27,7 @@ display: flex;
       display: flex;
       align-items: center;
       justify-content: center;
-       padding-left: 5vh;
+/*        padding-left: 5vh; */
     }
 
     /* Rotating Border */
@@ -246,6 +246,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
