@@ -40,7 +40,7 @@ display: flex;
  
       animation: rotateBorder 3s linear infinite;
       z-index: 1;
-      padding: 10px; /* gap for image */
+       /* gap for image */
       box-sizing: border-box;
     }
 
@@ -246,6 +246,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
