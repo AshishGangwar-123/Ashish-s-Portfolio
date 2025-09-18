@@ -33,7 +33,7 @@ display: flex;
     /* Rotating Border */
     .border {
       position: absolute;
-      width: 98%;
+      width: 97%;
       height: 100%;
       border-radius: 50%;
      background: conic-gradient(rgb(113, 86, 232),  rgb(236, 234, 234),  rgb(100, 179, 233), rgb(100, 179, 233), rgb(103, 119, 241), rgb(236, 234, 234), rgb(236, 234, 234),  rgb(103, 119, 241));
@@ -46,8 +46,8 @@ display: flex;
 
     /* Inner Photo (static) */
     .image-box {
-      width: 200px;
-      height: 200px;
+      width: 180px;
+      height: 210px;
       border-radius: 50%;
       overflow: hidden;
       background: white;
@@ -246,6 +246,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
