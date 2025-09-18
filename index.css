@@ -27,6 +27,7 @@ display: flex;
       display: flex;
       align-items: center;
       justify-content: center;
+       margin-left: 50vh;
     }
 
     /* Rotating Border */
@@ -35,7 +36,8 @@ display: flex;
       width: 98%;
       height: 100%;
       border-radius: 50%;
-      background: conic-gradient(rgb(95, 168, 216), rgb(252, 252, 254), rgb(230, 9, 182));
+     background: conic-gradient(rgb(113, 86, 232),  rgb(236, 234, 234),  rgb(100, 179, 233), rgb(100, 179, 233), rgb(103, 119, 241), rgb(236, 234, 234), rgb(236, 234, 234),  rgb(103, 119, 241));
+ 
       animation: rotateBorder 3s linear infinite;
       z-index: 1;
       padding: 10px; /* gap for image */
@@ -244,6 +246,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
