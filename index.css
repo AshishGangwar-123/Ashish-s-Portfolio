@@ -20,8 +20,8 @@ display: flex;
 }
 .wrapper {
       padding-left:50vh;
-      width: 220px;
-      height: 220px;
+      width: 13vh;
+      height: 16wh;
       border-radius: 50%;
       position: relative;
       display: flex;
@@ -46,8 +46,8 @@ display: flex;
 
     /* Inner Photo (static) */
     .image-box {
-      width: 200px;
-      height: 200px;
+      width: 12vh;
+      height: 12wh;
       border-radius: 50%;
       overflow: hidden;
       background: white;
@@ -246,6 +246,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
