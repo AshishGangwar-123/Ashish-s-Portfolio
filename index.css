@@ -46,8 +46,8 @@ display: flex;
 
     /* Inner Photo (static) */
     .image-box {
-      width: 180px;
-      height: 210px;
+      width: 200px;
+      height: 202px;
       border-radius: 50%;
       overflow: hidden;
       background: white;
@@ -246,6 +246,7 @@ display: flex;
     z-index:10;
     /* margin-left:34.4em; */
 }
+
 
 
 
