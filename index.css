@@ -18,55 +18,14 @@ display: flex;
     font-size: 1.56rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.wrapper {
-      padding-left:50vh;
-      width: 13vh;
-      height: 16wh;
-      border-radius: 50%;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-/*        padding-left: 5vh; */
-    }
-
-    /* Rotating Border */
-    .border {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-     background: conic-gradient(rgb(113, 86, 232),  rgb(236, 234, 234),  rgb(100, 179, 233), rgb(100, 179, 233), rgb(103, 119, 241), rgb(236, 234, 234), rgb(236, 234, 234),  rgb(103, 119, 241));
- 
-      animation: rotateBorder 3s linear infinite;
-      z-index: 1;
-       /* gap for image */
-      box-sizing: border-box;
-    }
-
-    /* Inner Photo (static) */
-    .image-box {
-      width: 12vh;
-      height: 12wh;
-      border-radius: 50%;
-      overflow: hidden;
-      background: white;
-      position: relative;
-      z-index: 2;
-    }
-
-    .image-box img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-
-    /* Animation */
-    @keyframes rotateBorder {
-      from { transform: rotate(0deg); }
-      to   { transform: rotate(360deg); }
-    }
+.profilephoto{
+    width: 13.75rem;
+    height: 250px;
+    margin-left: 50px;
+    /* margin-top: 200px; */
+    border-radius: 50%;
+    border: 7px solid white;
+}
 .intro{
     color: rgb(172, 177, 181);
     font-size: 1.2rem;
@@ -207,61 +166,45 @@ display: flex;
     color:rgb(15, 170, 15);
 }
 .contactwayimg1{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 50%;
     position: sticky;
-    top: 192px;
+    top: 8rem;
     margin-left: 95%;
     z-index:10;
     /* margin-left:36em; */
 }
 .contactwayimg2{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 50%;
     position: sticky;
-    top: 256px;
+    top: 13rem;
     margin-left: 95%;
     z-index:10;
     /* margin-left:36em; */
 }
 .contactwayimg3{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 20%;
     position: sticky;
-    top: 320px;
+    top: 18rem;
     margin-left: 95%;
     z-index:10;
     /* margin-left:30em; */
 }
 .contactwayimg4{
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
     border-radius: 20%;
     position: sticky;
-    top: 384px;
+    top: 23rem;
     margin-left: 95%;
     z-index:10;
     /* margin-left:34.4em; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
